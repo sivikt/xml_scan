@@ -1,0 +1,12 @@
+<docSearch_dsReq_0_0 userID="1772927" companyID="11803" maxRows="51" queryType="normal" tkrPrimary="1" dateRange="allDates" calcPrice="0" tkrEncoding="prtID" exclude3rdParty="0" xmlns="x-schema:mxschema://docsearch">
+  <sort s_c="date" s_d="desc" />
+  <excludeCtbs>1</excludeCtbs>
+  <ctbs>,</ctbs>
+  <ticker>100001547</ticker>
+  <ticker>100032488</ticker>
+  <docType>
+  </docType>
+  <langID>en</langID>
+  <langID>es</langID>
+  <pagingHint docID="35393101" hintStr="1122566400" />
+</docSearch_dsReq_0_0>

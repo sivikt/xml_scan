@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<docSearch_dsReq_0_0 xmlns="x-schema:mxschema://docsearch" userID="2112" companyID="184" queryType="normal" dateRange="last14Days" infoLevel="default" maxRows="100">
+	<docID>123</docID>
+</docSearch_dsReq_0_0>

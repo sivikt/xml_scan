@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<docSearch_dsReq_0_0 xmlns="x-schema:mxschema://docsearch" userID="3043222" companyID="184" dateRange="last14Days" maxRows="100" queryType="normal">
+	<docType>R</docType>
+	<industrySet>MX#001</industrySet>
+	<industry>370</industry>
+</docSearch_dsReq_0_0>

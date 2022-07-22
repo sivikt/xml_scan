@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<project default="build">
+
+    <property name="app.name">xmlScan</property>
+    <property name="version" value="0.0.1"/>
+    <property name="src">src</property>
+    <property name="target">target</property>
+    <property name="lib">lib</property>
+
+    <target name="clean">
+        <delete failonerror="false">
+            <fileset file="${target}/*"/>
+        </delete>
+    </target>
+    
+    <target name="compile">
+        <mkdir dir="${target}" />
+
+        <javac srcdir="${src}"
+               destdir="${target}"
+               fork="java$$javac.exe"
+               source="1.6"
+               classpath="${lib}"
+               debug="on"/>
+    </target>
+
+    <target name="jar">
+        <tstamp>
+            <format property="build.date.time" pattern="yyyy-MM-dd HH:mm:ss" />
+            <format property="build.num" pattern="yyyyMMdd_HHmmss" />
+        </tstamp>
+        
+        <property name="out.name" value="${app.name}-${version}_b${build.num}.jar"/>
+
+        <manifest file="${target}/MANIFEST.MF">
+            <attribute name="Built-By" value="${user.name}"/>
+            <attribute name="Main-Class" value="xmlScan.XmlScanner"/>
+            <attribute name="Implementation-Version" value="${version}"/>
+            <attribute name="Built-Date" value="${build.date.time}"/>
+            <attribute name="Class-Path" value="."/>
+        </manifest>
+
+        <jar destfile="${target}/${out.name}"
+             manifest="${target}/MANIFEST.MF" >
+            <fileset dir="${target}" includes="**/*.class, **/README" />
+            <fileset dir="${lib}" includes="**/*.class" />
+        </jar>
+    </target>
+
+    <target name="build" depends="clean, compile, jar" />
+</project>

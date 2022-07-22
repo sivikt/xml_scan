@@ -1,0 +1,9 @@
+<docSearch_dsReq_0_0 userID="88477" companyID="904" maxRows="3" queryType="normal" tkrPrimary="0" dateRange="last120Days" calcPrice="0" tkrEncoding="prtID" exclude3rdParty="0" xmlns="x-schema:mxschema://docsearch">
+  <sort s_c="date" s_d="desc" />
+  <excludeCtbs>0</excludeCtbs>
+  <ctbs>904</ctbs>
+  <ticker>100087548</ticker>
+  <docType>
+  </docType>
+  <langID>en</langID>
+</docSearch_dsReq_0_0>

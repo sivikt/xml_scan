@@ -1,0 +1,7 @@
+<docSearch_dsReq_0_0 userID="31728212" companyID="20519" maxRows="1000" queryType="normal" tkrPrimary="0" dateRange="last7Days" calcPrice="1" tkrEncoding="tkr" exclude3rdParty="0" xmlns="x-schema:mxschema://docsearch">
+  <docID>36336829</docID>
+  <docID>36506991</docID>
+  <sort s_c="date" s_d="desc" />
+  <docType>
+  </docType>
+</docSearch_dsReq_0_0>

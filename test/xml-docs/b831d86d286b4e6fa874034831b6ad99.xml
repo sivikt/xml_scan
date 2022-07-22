@@ -1,0 +1,22 @@
+<docSearch_dsReq_0_0 userID="32035160" companyID="29044" maxRows="50" queryType="normal" tkrPrimary="0" dateRange="last90Days" calcPrice="0" tkrEncoding="prtID" exclude3rdParty="0" xmlns="x-schema:mxschema://docsearch">
+  <sort s_c="date" s_d="desc" />
+  <ctbs>
+  </ctbs>
+  <ticker>100090257</ticker>
+  <docType>MR</docType>
+  <langID>zh</langID>
+  <langID>fr</langID>
+  <langID>no</langID>
+  <langID>da</langID>
+  <langID>de</langID>
+  <langID>pt</langID>
+  <langID>nl</langID>
+  <langID>it</langID>
+  <langID>ru</langID>
+  <langID>en</langID>
+  <langID>ja</langID>
+  <langID>es</langID>
+  <langID>fi</langID>
+  <langID>ko</langID>
+  <langID>sv</langID>
+</docSearch_dsReq_0_0>

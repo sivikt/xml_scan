@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docSearch_dsReq_0_0 xmlns="x-schema:mxschema://docsearch" userID="1800781" companyID="12302" dateRange="last120Days" maxRows="100" tkrEncoding="prtID"><sort s_c="score"/><ticker>100086060</ticker><bbDaysBack>7</bbDaysBack></docSearch_dsReq_0_0>

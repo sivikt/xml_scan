@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root xmlns:nsp="stub">
+    <node>value1</node>
+    <nsp:node>value2</nsp:node>
+    <node></node>
+    <node></node>
+    <node></node>
+</root>

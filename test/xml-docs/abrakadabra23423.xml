@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore specialty="novel" xmlns="dfsdfsdfsd" xmlns:n="sdfsdfsd">
+  <n:book>
+    <n:docID>sdfsdf</n:docID>
+  </n:book>
+  <book style="autobiography">
+	<docID>20962646</docID>
+	<docID>00000000</docID>
+    <author>
+      <first-name>Joe</first-name>
+      <last-name>Bob</last-name>
+      <award>Trenton Literary Review Honorable Mention</award>
+		<nodes>
+		    <node>
+		        text_content0
+		        <id>0</id>
+		        <name>node0</name>
+		    </node>
+		    <node>
+		        <id>1</id>
+		        <name>node1</name>
+		    </node>
+		    <node>
+		        node2
+		        <id>2</id>
+		    </node>
+		</nodes>
+		<div>
+			div_0_content
+			<div>div_1_content</div>
+			<div>div_2_content</div>
+		</div>
+    </author>
+    <price>12</price>
+  </book>
+  <book style="textbook">
+    <docID>
+        1_20962646
+        <docID>1_20962646</docID>
+        <docID>
+            1.2_20962646
+            <docID>1.2_20962646</docID>
+            <docID>1.2_20962646</docID>
+            <docID>1.2_20962646</docID>
+         </docID>
+     </docID>
+    <docID>1_00000000</docID>
+    <author>
+      <first-name>Mary</first-name>
+      <last-name>Bob</last-name>
+      <publication>Selected Short Stories of
+        <first-name>Mary</first-name>
+        <last-name>Bob</last-name>
+      </publication>
+    </author>
+    <price>55</price>
+  </book>
+  <magazine style="glossy" frequency="monthly">
+    <price>2.50</price>
+    <subscription price="24" per="year"/>
+  </magazine>
+  <book style="novel" id="myfave">
+    <author>
+      <first-name>Toni</first-name>
+      <last-name>Bob</last-name>
+      <degree from="Trenton U">B.A.</degree>
+      <degree from="Harvard">Ph.D.</degree>
+      <award>Pulitzer</award>
+      <publication>Still in Trenton</publication>
+      <publication>Trenton Forever</publication>
+    </author>
+    <price intl="Canada" exchange="0.7">6.50</price>
+    <excerpt>
+      <p>It was a dark and stormy night.</p>
+      <p>But then all nights in Trenton seem dark and
+      stormy to someone who has gone through what
+      <emph>I</emph> have.</p>
+      <definition-list>
+        <term>Trenton</term>
+        <definition>misery</definition>
+      </definition-list>
+    </excerpt>
+  </book>
+</bookstore>

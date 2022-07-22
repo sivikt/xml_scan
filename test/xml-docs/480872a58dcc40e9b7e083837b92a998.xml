@@ -1,0 +1,10 @@
+<docSearch_dsReq_0_0 userID="32011206" companyID="3031" maxRows="100" queryType="normal" tkrPrimary="0" dateRange="thisWeek" calcPrice="0" tkrEncoding="prtID" exclude3rdParty="0" xmlns="x-schema:mxschema://docsearch">
+  <sort s_c="date" s_d="desc" />
+  <excludeCtbs>0</excludeCtbs>
+  <ctbs>3031</ctbs>
+  <ticker>100089359</ticker>
+  <ticker>100102516</ticker>
+  <docType>
+  </docType>
+  <langID>en</langID>
+</docSearch_dsReq_0_0>
